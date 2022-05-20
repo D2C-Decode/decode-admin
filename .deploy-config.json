@@ -1,0 +1,54 @@
+{
+  "develop": {
+    "lintCheck": false,
+    "buildCheck": true,
+    "buildCommand": "build:qa",
+    "buildOutputDir": "dist",
+    "workDir": "./",
+    "specialBucketType": "default",
+    "useYarnInstall": true,
+    "removeCacheDir": false,
+
+    "useITM": false,
+    "resourceCheck": true
+  },
+  "qatest": {
+    "lintCheck": false,
+    "buildCheck": true,
+    "buildCommand": "build:qa",
+    "buildOutputDir": "dist",
+    "workDir": "./",
+    "specialBucketType": "default",
+    "useYarnInstall": true,
+    "removeCacheDir": false,
+
+    "useITM": false,
+    "resourceCheck": true
+  },
+  "pre-release": {
+    "lintCheck": false,
+    "buildCheck": true,
+    "buildCommand": "build:pre",
+    "buildOutputDir": "dist",
+    "workDir": "./",
+    "specialBucketType": "default",
+    "useYarnInstall": true,
+    "removeCacheDir": false,
+
+    "useITM": false,
+    "resourceCheck": true
+  },
+  "prod": {
+    "lintCheck": false,
+    "buildCheck": true,
+    "buildCommand": "build",
+    "buildOutputDir": "dist",
+    "workDir": "./",
+    "specialBucketType": "default",
+    "useYarnInstall": true,
+    "removeCacheDir": false,
+
+    "useITM": false,
+    "resourceCheck": true
+  }
+}
